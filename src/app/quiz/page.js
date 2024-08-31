@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import { questions } from '../../data/questions'
 import { useTheme } from '@mui/material';
+import Link from 'next/link';
 
 
 export default function Quiz() {
@@ -64,8 +65,11 @@ export default function Quiz() {
         >
           <Typography variant="h4" component='div' gutterBottom align='center'>
             Your personality type is 
-            <Typography variant="h4" color="info.main">{result}</Typography>
+            <Typography variant="h4" color="info.main" sx={{my: 3}}>{result}</Typography>
           </Typography>
+          <Link href="/" passHref>
+            <Button variant='contained'>Try Again?</Button>    
+        </Link>
         </Paper>
       </Container>
     );
