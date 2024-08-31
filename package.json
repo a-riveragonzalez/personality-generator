@@ -1,12 +1,15 @@
 {
   "name": "personality-gen",
+  "homepage": "https://a-riveragonzalez.github.io/personality-gen",
   "version": "5.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/cache": "latest",
@@ -17,6 +20,7 @@
     "@mui/material-nextjs": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
+    "gh-pages": "^6.1.1",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
