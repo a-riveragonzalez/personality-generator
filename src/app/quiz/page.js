@@ -85,7 +85,6 @@ export default function Quiz() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        my: 3
       }}
     >
       <Paper
