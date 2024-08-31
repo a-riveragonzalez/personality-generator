@@ -2,7 +2,6 @@
 
 import * as React from 'react';
 import Container from '@mui/material/Container';
-import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
@@ -24,6 +23,8 @@ export default function Quiz() {
       [choice.personalityType]: (prevPoints[choice.personalityType] || 0) + choice.points
     }));
 
+    console.log('points', points)
+
     // Move to the next question or finish the quiz
     const nextQuestionIndex = currentQuestionIndex + 1;
     if (nextQuestionIndex < questions.length) {
@@ -33,12 +34,22 @@ export default function Quiz() {
     }
   };
 
+  // const calculateResult = () => {
+  //   // Find the personalityType with the most points
+  //   const maxPointsType = Object.keys(points).reduce((maxType, type) =>
+  //     points[type] > (points[maxType] || 0) ? type : maxType, null
+  //   );
+  //   console.log('maxPointsType', maxPointsType)
+  //   setResult(maxPointsType);
+  // };
+
   const calculateResult = () => {
-    // Find the personalityType with the most points
-    const maxPointsType = Object.keys(points).reduce((maxType, type) =>
-      points[type] > (points[maxType] || 0) ? type : maxType, null
+    const maxPoints = Math.max(...Object.values(points));
+    const tiedResults = Object.keys(points).filter(
+      type => points[type] === maxPoints
     );
-    setResult(maxPointsType);
+
+    setResult(tiedResults);
   };
 
   if (result) {
@@ -63,13 +74,24 @@ export default function Quiz() {
             alignItems: 'center',
           }}
         >
-          <Typography variant="h4" component='div' gutterBottom align='center'>
-            Your personality type is 
-            <Typography variant="h4" color="info.main" sx={{my: 3}}>{result}</Typography>
+          <Typography variant="h4" component='div' align='center' >
+            Your personality { result.length === 1 ? 'type is' : 'types are'
+            } :
           </Typography>
+          {result.map((type, index) => (
+            <Typography
+              key={index}
+              variant="h4"
+              color="info.main"
+              sx={{ my: 3 }}
+              align="center"
+            >
+              {type}
+            </Typography>
+          ))}
           <Link href="/" passHref>
-            <Button variant='contained'>Try Again?</Button>    
-        </Link>
+            <Button variant='contained'>Try Again?</Button>
+          </Link>
         </Paper>
       </Container>
     );
