@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    basePath: "/personality-gen",
+    output: "export",
+    reactStrictMode: true,
+  };
+  
+  module.exports = nextConfig;
+  
