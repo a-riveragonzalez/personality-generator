@@ -3,7 +3,7 @@ export const questions = [
     _id: "1",
     question: "What genre do you enjoy reading most?",
     choices: [
-      { answer: "Sappy/saucy romance", personalityType: "Dust Bunny", points: 1 },
+      { answer: "Sappy/saucy romance", personalityType: "Bleeding Heart", points: 1 },
       { answer: "Contemporary / realistic fiction", personalityType: "Prickly Pinecone", points: 1 },
       { answer: "Poetry", personalityType: "Dust Bunny", points: 1 },
       { answer: "Thriller / mystery", personalityType: "Cracked Vase", points: 1 },
@@ -17,7 +17,7 @@ export const questions = [
     _id: "2",
     question: "What animal resonates with you most?",
     choices: [
-      { answer: "Otter", personalityType: "Dust Bunny", points: 1 },
+      { answer: "Otter", personalityType: "Bleeding Heart", points: 1 },
       { answer: "Bear", personalityType: "Prickly Pinecone", points: 1 },
       { answer: "Mouse", personalityType: "Dust Bunny", points: 1 },
       { answer: "Alligator", personalityType: "Cracked Vase", points: 1 },
@@ -31,7 +31,7 @@ export const questions = [
     _id: "3",
     question: "What color resonates with you most?",
     choices: [
-      { answer: "Red", personalityType: "Dust Bunny", points: 1 },
+      { answer: "Red", personalityType: "Bleeding Heart", points: 1 },
       { answer: "Green", personalityType: "Prickly Pinecone", points: 1 },
       { answer: "Blue", personalityType: "Dust Bunny", points: 1 },
       { answer: "Yellow", personalityType: "Cracked Vase", points: 1 },
@@ -45,7 +45,7 @@ export const questions = [
     _id: "4",
     question: "Choose one word to describe yourself:",
     choices: [
-      { answer: "Romantic", personalityType: "Dust Bunny", points: 1 },
+      { answer: "Romantic", personalityType: "Bleeding Heart", points: 1 },
       { answer: "Bitter", personalityType: "Prickly Pinecone", points: 1 },
       { answer: "Shy", personalityType: "Dust Bunny", points: 1 },
       { answer: "Emotional", personalityType: "Cracked Vase", points: 1 },
@@ -59,7 +59,7 @@ export const questions = [
     _id: "5",
     question: "Pick a tarot card:",
     choices: [
-      { answer: "The lovers", personalityType: "Dust Bunny", points: 1 },
+      { answer: "The lovers", personalityType: "Bleeding Heart", points: 1 },
       { answer: "The emperor", personalityType: "Prickly Pinecone", points: 1 },
       { answer: "The Hermit", personalityType: "Dust Bunny", points: 1 },
       { answer: "The Tower", personalityType: "Cracked Vase", points: 1 },
@@ -73,7 +73,7 @@ export const questions = [
     _id: "6",
     question: "Pick an Element:",
     choices: [
-      { answer: "Water", personalityType: "Dust Bunny", points: 1 },
+      { answer: "Water", personalityType: "Bleeding Heart", points: 1 },
       { answer: "Earth", personalityType: "Prickly Pinecone", points: 1 },
       { answer: "Air", personalityType: "Dust Bunny", points: 1 },
       { answer: "Fire", personalityType: "Cracked Vase", points: 1 },
@@ -87,7 +87,7 @@ export const questions = [
     _id: "7",
     question: "How would you most likely act at a party?",
     choices: [
-      { answer: "Chatting with anyone/everyone, meeting new people, flirting", personalityType: "Dust Bunny", points: 1 },
+      { answer: "Chatting with anyone/everyone, meeting new people, flirting", personalityType: "Bleeding Heart", points: 1 },
       { answer: "Observing the crowd from the snack bar, only speaking when spoken to", personalityType: "Prickly Pinecone", points: 1 },
       { answer: "Hiding in a secluded corner reading or playing on your phone", personalityType: "Dust Bunny", points: 1 },
       { answer: "Drinking and causing a scene with an old acquaintance/friend/ex", personalityType: "Cracked Vase", points: 1 },
@@ -101,7 +101,7 @@ export const questions = [
     _id: "8",
     question: "What if your favorite type of music?",
     choices: [
-      { answer: "Heartbreak/love songs", personalityType: "Dust Bunny", points: 1 },
+      { answer: "Heartbreak/love songs", personalityType: "Bleeding Heart", points: 1 },
       { answer: "Punk", personalityType: "Prickly Pinecone", points: 1 },
       { answer: "Lofi", personalityType: "Dust Bunny", points: 1 },
       { answer: "Rap", personalityType: "Cracked Vase", points: 1 },
@@ -115,7 +115,7 @@ export const questions = [
     _id: "9",
     question: "What image speaks to you the most?",
     choices: [
-      { answer: "A beautiful proposal", personalityType: "Dust Bunny", points: 1 },
+      { answer: "A beautiful proposal", personalityType: "Bleeding Heart", points: 1 },
       { answer: "Two kids fighting over a stuffed toy", personalityType: "Prickly Pinecone", points: 1 },
       { answer: "A cat sleeping in a cozy corner", personalityType: "Dust Bunny", points: 1 },
       { answer: "A shop filled with items (secondhand)", personalityType: "Cracked Vase", points: 1 },
@@ -129,7 +129,7 @@ export const questions = [
     _id: "10",
     question: "What environment speaks to you the most?",
     choices: [
-      { answer: "The beach", personalityType: "Dust Bunny", points: 1 },
+      { answer: "The beach", personalityType: "Bleeding Heart", points: 1 },
       { answer: "The swamp", personalityType: "Prickly Pinecone", points: 1 },
       { answer: "The forest", personalityType: "Dust Bunny", points: 1 },
       { answer: "The tundra/mountains", personalityType: "Cracked Vase", points: 1 },
@@ -143,7 +143,7 @@ export const questions = [
     _id: "11",
     question: "What superpower do you wish you could have/find most useful to you?",
     choices: [
-      { answer: "To charm anyone into doing what you want", personalityType: "Dust Bunny", points: 1 },
+      { answer: "To charm anyone into doing what you want", personalityType: "Bleeding Heart", points: 1 },
       { answer: "Mind reading", personalityType: "Prickly Pinecone", points: 1 },
       { answer: "Invisibility", personalityType: "Dust Bunny", points: 1 },
       { answer: "Top change the emotions of others at a whim", personalityType: "Cracked Vase", points: 1 },
@@ -157,7 +157,7 @@ export const questions = [
     _id: "12",
     question: "What is your favorite time of day?",
     choices: [
-      { answer: "Break of dawn", personalityType: "Dust Bunny", points: 1 },
+      { answer: "Break of dawn", personalityType: "Bleeding Heart", points: 1 },
       { answer: "Dusk", personalityType: "Prickly Pinecone", points: 1 },
       { answer: "Evening", personalityType: "Dust Bunny", points: 1 },
       { answer: "Night", personalityType: "Cracked Vase", points: 1 },
@@ -171,7 +171,7 @@ export const questions = [
     _id: "13",
     question: "What would you do if you ruled the world?",
     choices: [
-      { answer: "Spread love and kindness, removing war, ending hunger, world peace, and creating balance", personalityType: "Dust Bunny", points: 1 },
+      { answer: "Spread love and kindness, removing war, ending hunger, world peace, and creating balance", personalityType: "Bleeding Heart", points: 1 },
       { answer: "Build a strong empire with loyal subjects that do as you please", personalityType: "Prickly Pinecone", points: 1 },
       { answer: "Run it all from the shadows – the people not knowing if you truly exist or not", personalityType: "Dust Bunny", points: 1 },
       { answer: "Build statues and builds in your honor, making a few days a month to celebrate your greatness", personalityType: "Cracked Vase", points: 1 },
