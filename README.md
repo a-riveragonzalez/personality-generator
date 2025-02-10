@@ -30,6 +30,8 @@ or:
 
 [![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/github/mui/material-ui/tree/master/examples/material-ui-nextjs)
 
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/mui/material-ui/tree/master/examples/material-ui-nextjs)
+
 ## Learn more
 
 To learn more about this example:
